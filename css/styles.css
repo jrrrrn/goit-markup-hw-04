@@ -80,7 +80,7 @@ img {
 .link {
   font-style: normal;
   text-decoration: none;
-  cursor: pointer;
+  
 }
 
 .title {
@@ -540,3 +540,5 @@ border-radius: 4px;
   border: 1px solid #eee;
   border-top: transparent;
 }
+
+
