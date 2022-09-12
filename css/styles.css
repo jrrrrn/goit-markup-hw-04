@@ -274,6 +274,32 @@ img {
 .about-us-description {
   line-height: 1.74;
 }
+.about-us-list-item::before{
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px 100px;
+
+  margin-bottom: 30px;
+}
+.about-us-list-item:nth-child(1)::before {
+  background-image: url(../images/icons/atteantion-to-details.svg);
+}
+.about-us-list-item:nth-child(2)::before {
+  background-image: url(../images/icons/punctuality.svg);
+  
+}
+.about-us-list-item:nth-child(3)::before {
+  background-image: url(../images/icons/planning.svg);
+}
+.about-us-list-item:nth-child(4)::before {
+  background-image: url(../images/icons/modern-technologies.svg);
+}
+
 
 /* Чим ми займаємось */
 .what-we-do .title {
