@@ -490,27 +490,7 @@ cursor: pointer;
   fill: var(--accent-color);
 }
 
-/* .our-clients-item:not(:last-child) {
-  margin-right: 30px;
-}
-.our-clients-item:nth-child(1) {
-  background-image: url(../images/icons/company-one.svg);
-}
-.our-clients-item:nth-child(2) {
-  background-image: url(../images/icons/company-two.svg);
-}
-.our-clients-item:nth-child(3) {
-  background-image: url(../images/icons/company-three.svg);
-}
-.our-clients-item:nth-child(4) {
-  background-image: url(../images/icons/company-four.svg);
-}
-.our-clients-item:nth-child(5) {
-  background-image: url(../images/icons/company-five.svg);
-}
-.our-clients-item:nth-child(6) {
-  background-image: url(../images/icons/company-six.svg);
-} */
+
 
 
 /* Наші проекти */
@@ -539,9 +519,11 @@ cursor: pointer;
 .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
+ box-shadow: 0px 2px 2px 0px #0000001F;
 }
+
 /* тимчасово */
-.everything-btn {
+.current-btn {
   background-color: var(--accent-color);
 
   color: var(--secondary-text-color);
@@ -585,6 +567,9 @@ cursor: pointer;
 
   border: 1px solid #eee;
   border-top: transparent;
+}
+.project-card:hover {
+  box-shadow: 1px 4px 6px 0px #00000029;
 }
 
 
