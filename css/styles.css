@@ -382,9 +382,7 @@ padding: 25px 100px;
 
 .our-team-list-item {
   background: #ffffff;
-  width: calc((100% - 90px) / 4);
-
-  
+  width: calc((100% - 90px) / 4); 
 }
 
 .our-team-list-item:not(:last-child) {
@@ -403,6 +401,12 @@ padding: 25px 100px;
   font-size: 16px;
   line-height: 1.18;
 }
+.our-team-list-item {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
 .employee-desc {
   text-align: center;
 
@@ -410,12 +414,6 @@ padding: 25px 100px;
   padding-bottom: 30px;
   padding-left: 60px;
   padding-right: 60px;
-
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-
- 
 }
 .employee-socials {
   display: flex;
