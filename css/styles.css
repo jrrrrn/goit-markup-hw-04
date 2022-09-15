@@ -155,10 +155,7 @@ img {
   display: flex;
   align-items: center;
 }
-/* .navigation {
-  align-items: center;
-  
-} */
+
 
 .nav-list-item:not(:last-child),
 .header-address-link:not(:last-child) {
@@ -192,7 +189,8 @@ img {
 
 .current a{
   color: var(--accent-color);
-}
+ }
+ /*  
 .current a::after {
   content:"";
   background-image: url(../images/icons/underline.svg);
@@ -208,7 +206,7 @@ margin-bottom: -34px;
 .nav-list {
   align-items: center;
 
-}
+} */
 
 /* Футер */
 
@@ -218,11 +216,7 @@ margin-bottom: -34px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* .socials-list-item:nth-child(1) {
-  content: "";
-  background-image: url(../images/icons/instagram-grey.svg);
-  background-size: 20px;
-} */
+
 
 .footer .logo {
   display: inline-block;
@@ -252,46 +246,8 @@ margin-bottom: -34px;
   margin-bottom: 20px;
   color:var(--secondary-text-color)
   
-  
 }
-/* .socials-list-item {
-  content: "";
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-  
-    
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
 
-}
-.socials-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-.socials-list-item:nth-child(1) {
-  background-image: url(../images/icons/instagram-white.svg);
-
-}
-.socials-list-item:nth-child(2) {
-  background-image: url(../images/icons/twitter-white.svg);
-
-  background-color: var(--accent-color);
-
-}
-.socials-list-item:nth-child(3) {
-  background-image: url(../images/icons/facebook-white.svg);
-
-}
-.socials-list-item:nth-child(4) {
-  background-image: url(../images/icons/linkedin-white.svg);
-
-} */
 .icon {
   fill: #fff;
   display: block;
@@ -387,35 +343,19 @@ margin-bottom: -34px;
 .about-us-description {
   line-height: 1.74;
 }
-.about-us-list-item::before{
-  content: "";
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  margin-bottom: 30px;
-  padding-top: 25px ;
-  padding-bottom: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.about-us-list-item:nth-child(1)::before {
-  background-image: url(../images/icons/atteantion-to-details.svg);
-}
-.about-us-list-item:nth-child(2)::before {
-  background-image: url(../images/icons/punctuality.svg);
+.about-us-icon{
   
+  width: 70px;
+  height: 70px;
 }
-.about-us-list-item:nth-child(3)::before {
-  background-image: url(../images/icons/planning.svg);
-}
-.about-us-list-item:nth-child(4)::before {
-  background-image: url(../images/icons/modern-technologies.svg);
-}
+.about-us-icon-bg {
 
+background-color: #F5F4FA;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+padding: 25px 100px;
+}
 
 /* Чим ми займаємось */
 .what-we-do .title {
