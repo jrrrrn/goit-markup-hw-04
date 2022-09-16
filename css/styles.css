@@ -50,12 +50,11 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 
-  /* outline: 3px solid purple; */
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* outline: 1px solid green; */
+  
 }
 .btn {
   display: block;
@@ -104,7 +103,7 @@ img {
 }
 
 
-/* Хедер */
+/* Header */
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -151,7 +150,8 @@ img {
 
 .nav-list,
 .navigation,
-.header-address {
+.header-address
+ {
   display: flex;
   align-items: center;
 }
@@ -168,19 +168,13 @@ img {
 }
 
   
-/* icons */
+
+
 .address-icon {
   fill: #757575;
   margin-right: 10px;
 }
-.mail {
-  width: 16px;
-  height: 12px;
-}
-.phone {
-  width: 10px;
-  height: 16px;
-}
+
  .address-icon:hover{
   fill: var(--accent-color);
 }
@@ -208,7 +202,7 @@ margin-bottom: -34px;
 
 } */
 
-/* Футер */
+/* Footer */
 
 .footer {
   
@@ -468,10 +462,10 @@ padding: 25px 100px;
     width: 170px;
     height: 92px;
    
-padding-top: 23px;
+/* padding-top: 23px;
 padding-bottom: 23px;
 padding-left: 65px;
-padding-right: 65px;
+padding-right: 65px; */
 
 margin-right: 30px;
 border: 1px solid #AFB1B8;
